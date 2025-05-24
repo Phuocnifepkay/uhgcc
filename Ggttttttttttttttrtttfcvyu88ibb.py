@@ -49,10 +49,9 @@ if author == "":
   Authorization.write(author)
   t.write(token)
 else:
-  print(f"\033[1;32mNhập 1 để vào TOOL Golike SnapChat 💸🤑")
+  print(f"\033[1;32mNhập 1 để vào TOOL Golike Twitter 💸🤑")
   print(f"\033[1;96mHOẶC LÀ ")
   select = input(f"\033[1;32mNhập AUTHORIZATION {Fore.CYAN}Ở đây \033[1;32mđể vào acc golike khác : \033[1;33m")
-  kiem_tra_mang()
   if select != "1":
     author = select
     token = input("\033[1;32m Nhập T (token golike) : \033[1;33m")
